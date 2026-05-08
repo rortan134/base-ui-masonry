@@ -43,4 +43,8 @@ return (
 )
 ```
 
-Inspired by [DiceUI](https://www.diceui.com/docs/components/base/masonry)
+Inspired by [DiceUI](https://www.diceui.com/docs/components/base/masonry) and heavily modified.
+
+## License
+
+MIT
