@@ -4,7 +4,7 @@ A responsive, highly optimized, justified masonry layout component with support 
 
 Very recommended to use with `babel-plugin-react-compiler`.
 
-## Installation
+## 1. Installation
 
 ### Install dependencies
 
@@ -30,7 +30,7 @@ yarn add justified-layout @base-ui/react @base-ui/utils
 
 and [justified-layout.d.ts](./justified-layout.d.ts) if you run into type issues.
 
-## Anatomy
+## 2. Anatomy
 
 Import the parts, and compose them together.
 
