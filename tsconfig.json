@@ -53,6 +53,6 @@
         "paths": { "@/*": ["./*"] },
         "plugins": [{ "name": "next" }]
     },
-    "include": ["*.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".next/dev/types/**/*.ts"],
+    "include": ["*.d.ts", "**/*.ts", "**/*.tsx"],
     "exclude": ["node_modules"]
 }
