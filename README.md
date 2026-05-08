@@ -2,6 +2,8 @@
 
 A responsive, highly optimized, justified masonry layout component with support for variable column widths and virtualization built for being used alongside [BaseUI](https://base-ui.com/) in React projects.
 
+Very recommended to use with `babel-plugin-react-compiler`.
+
 ## Installation
 
 ### Install dependencies
