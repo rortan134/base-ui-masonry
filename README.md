@@ -28,6 +28,8 @@ yarn add justified-layout @base-ui/react @base-ui/utils
 
 [masonry.tsx](./src/masonry.tsx)
 
+and [justified-layout.d.ts](./justified-layout.d.ts) if you run into type issues.
+
 ## Anatomy
 
 Import the parts, and compose them together.
