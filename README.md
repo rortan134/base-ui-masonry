@@ -4,6 +4,14 @@ A responsive, highly optimized, justified masonry layout component with support 
 
 Very recommended to use with `babel-plugin-react-compiler`.
 
+## Why
+
+CSS `column`-based masonry layouts reorder items vertically, breaking logical tab order and keyboard navigation. True masonry requires absolute positioning with explicit top/left coordinates, but computing those layouts efficiently becomes difficult as the number of items grows.
+
+Scroll performance and layout stability introduce further challenges. As items resize or new ones are measured, the layout must update incrementally without causing visible jumps or expensive recalculations. Responsive column counts, variable-width items, and justified row packing each add another layer of complexity.
+
+base-ui-masonry provides a low-level, virtualized masonry and justified-layout engine that preserves DOM order, uses interval-tree spatial indexing for O(log n) scroll queries, integrates with BaseUI's resize observation and animation frame primitives, and follows BaseUI's component practices for smooth, accessible, performant layouts.
+
 ## 1. Installation
 
 ### Install dependencies
