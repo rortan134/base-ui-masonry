@@ -23,6 +23,9 @@
     "publishConfig": {
         "access": "public"
     },
+    "scripts": {
+        "type-check": "tsc --noEmit"
+    },
     "dependencies": {
         "@base-ui/react": "^1.4.1",
         "@base-ui/utils": "^0.2.8",

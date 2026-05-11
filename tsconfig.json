@@ -47,12 +47,6 @@
         "resolveJsonModule": true,
         "resolvePackageJsonExports": true,
         "preserveWatchOutput": true,
-        "incremental": true,
-
-        /* Path Aliases */
-        "paths": { "@/*": ["./*"] },
-        "plugins": [{ "name": "next" }]
-    },
-    "include": ["*.d.ts", "**/*.ts", "**/*.tsx"],
-    "exclude": ["node_modules"]
+        "incremental": true
+    }
 }
